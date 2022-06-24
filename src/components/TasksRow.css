@@ -1,0 +1,21 @@
+.taskRowWrapper{
+    display: flex;
+    margin-top:15px;
+    overflow: hidden;
+    align-items: center;
+}
+.checkBox{
+    width: 30px;
+   height: 30px;
+   margin-right: 12px;
+}
+.taskDisc{
+    
+}
+.disc{
+    margin:0 0 5px;
+    font-weight: 600;
+}
+.time{
+    margin:0px;
+}

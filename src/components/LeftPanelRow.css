@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:4px;
+}
+.number{
+    flex:1;
+    margin-left: 2px;
+    padding-right: 4px;
+}
+.name{
+    flex:4;
+    margin-left: 2px;
+    padding: 4px;
+}
+
+.icon{
+    flex:1;
+    align-items: center;
+}
+.row:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 4px;
+}

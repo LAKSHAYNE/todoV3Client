@@ -1,0 +1,58 @@
+.navCon{
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputCon{
+    text-align: center;
+    flex:5; 
+}
+.modalFeilds>p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.modalFeilds>input{
+    height: 28px;
+    width: 100%;
+    font-size: 15px;
+}
+.feildsWrapper{
+    padding: 10px;
+    align-items: center;
+}
+.input{
+    background-color: rgb(247, 242, 242);
+    border-radius: 5px;
+    max-width: 400px;
+    height:100%;
+    justify-content: center;
+}
+.right{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex:1;
+    padding-right: 15px;
+}
+.profile{
+    border-radius: 5px;
+}
+.imgprofile{
+    height: 43px;
+    border-radius: 50px;
+    object-fit: contain;
+}
+.endButton{
+    margin:20px;
+}
